@@ -1,0 +1,16 @@
+{
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "biome.biome",
+	"[typescript]": {
+		"editor.defaultFormatter": "biome.biome"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biome.biome"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "biome.biome"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "biome.biome"
+	}
+}
