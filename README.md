@@ -38,7 +38,6 @@ vw-node/
 Clone the repository and install dependencies:
 
 ```bash
-# Using Bun
 git clone https://github.com/vwh/vwnode
 cd vwnode
 
@@ -73,16 +72,16 @@ bun run build
 npm run build
 ```
 
-### 👀 Preview
+### 👀 Local
 
-Preview the production build locally:
+Run the production build locally:
 
 ```bash
 # Using Bun
-bun run preview
+bun run local
 
 # Or using npm
-npm run preview
+npm run local
 ```
 
 ### 🧹 Linting
