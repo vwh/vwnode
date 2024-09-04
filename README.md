@@ -7,8 +7,8 @@
 </p>
 
 <div align="center">
-  <a href="https://github.com/vwh/vwnode/actions/workflows/format.yml">
-    <img src="https://github.com/vwh/vwnode/actions/workflows/format.yml/badge.svg" alt="Check Format Badge"/>
+  <a href="https://github.com/vwh/vwnode/actions/workflows/format-check.yml">
+    <img src="https://github.com/vwh/vwnode/actions/workflows/format-check.yml/badge.svg" alt="Check Format Badge"/>
   </a>
   <a href="https://github.com/vwh/vwnode/actions/workflows/lint.yml">
     <img src="https://github.com/vwh/vwnode/actions/workflows/lint.yml/badge.svg" alt="Lint Badge"/>
