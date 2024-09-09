@@ -12,7 +12,8 @@
 		"noFallthroughCasesInSwitch": true,
 		"noUnusedLocals": false,
 		"noUnusedParameters": false,
-		"noPropertyAccessFromIndexSignature": false
+		"noPropertyAccessFromIndexSignature": false,
+		"noEmit": true
 	},
 	"include": ["src"],
 	"exclude": ["node_modules"]
