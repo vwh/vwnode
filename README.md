@@ -13,6 +13,9 @@
   <a href="https://github.com/vwh/vwnode/actions/workflows/lint.yml">
     <img src="https://github.com/vwh/vwnode/actions/workflows/lint.yml/badge.svg" alt="Lint Badge"/>
   </a>
+  <a href="https://github.com/vwh/vwnode/actions/workflows/test.yml">
+    <img src="https://github.com/vwh/vwnode/actions/workflows/test.yml/badge.svg" alt="Test Badge"/>
+  </a>
 </div>
 
 ## 🗃️ Project Structure
@@ -21,12 +24,13 @@
 vw-node/
 ├── biome.json                 # Biome configuration
 ├── bun.lockb                  # Bun lockfile
-├── nodemon.json               # Nodemon configuration
+├── Dockerfile                 # Docker configuration
 ├── package.json               # Project metadata and dependencies
 ├── package-lock.json          # npm lockfile
 ├── README.md                  # Project documentation
 ├── src/                       # Source files
 │   └── index.ts               # Main TypeScript file
+├── tests/                     # Test files
 ├── tsconfig.json              # TypeScript configuration
 └── tsup.config.ts             # tsup configuration
 ```
@@ -72,16 +76,16 @@ bun run build
 npm run build
 ```
 
-### 👀 Local
+### 🚀 Start
 
-Run the production build locally:
+Run the production build:
 
 ```bash
 # Using Bun
-bun run local
+bun run start
 
 # Or using npm
-npm run local
+npm run start
 ```
 
 ### 🧹 Linting
@@ -116,6 +120,38 @@ bun run format:check
 
 # Or using npm
 npm run format:check
+```
+
+### 🧐 Type Check
+
+```bash
+# Using Bun
+bun run type-check
+
+# Or using npm
+npm run type-check
+```
+
+### 🐳 Docker
+
+Build the Docker image:
+
+```bash
+# Using Bun
+bun run docker:build
+
+# Or using npm
+npm run docker:build
+```
+
+Run the Docker image:
+
+```bash
+# Using Bun
+bun run docker:run
+
+# Or using npm
+npm run docker:run
 ```
 
 ## 🤝 Contributing

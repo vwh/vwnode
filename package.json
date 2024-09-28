@@ -12,7 +12,7 @@
 		"format": "biome format --write",
 		"type-check": "tsc --noEmit",
 		"docker:build": "docker build -t vwnode .",
-    	"docker:run": "docker run -p 3000:3000 vwnode"
+		"docker:run": "docker run -p 3000:3000 vwnode"
 	},
 	"devDependencies": {
 		"@types/node": "latest",
