@@ -8,6 +8,7 @@
 		"moduleDetection": "force",
 		"isolatedModules": true,
 		"verbatimModuleSyntax": true,
+		"removeComments": true,
 		/* Strictness */
 		"strict": true,
 		"noUncheckedIndexedAccess": true,
