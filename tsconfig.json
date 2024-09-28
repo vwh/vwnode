@@ -1,19 +1,19 @@
 {
 	"compilerOptions": {
-		"lib": ["ESNext"],
-		"target": "ESNext",
-		"module": "NodeNext",
-		"moduleResolution": "nodenext",
-		"jsx": "react-jsx",
-		"allowJs": true,
-		"verbatimModuleSyntax": true,
-		"strict": true,
+		/* Base Options */
+		"target": "es2022",
 		"skipLibCheck": true,
-		"noFallthroughCasesInSwitch": true,
-		"noUnusedLocals": false,
-		"noUnusedParameters": false,
-		"noPropertyAccessFromIndexSignature": false,
-		"noEmit": true
+		"esModuleInterop": true,
+		"allowJs": true,
+		"moduleDetection": "force",
+		"isolatedModules": true,
+		"verbatimModuleSyntax": true,
+		/* Strictness */
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitOverride": true,
+		/* Transpilation */
+		"noEmit": true,
 	},
 	"include": ["src"],
 	"exclude": ["node_modules"]
