@@ -5,6 +5,7 @@
 	"scripts": {
 		"dev": "tsx --watch ./src/index.ts",
 		"start": "node --max-old-space-size=4096 dist/index.js",
+		"test": "tsx --test ./tests/test.ts",
 		"build": "tsup",
 		"lint": "biome lint",
 		"format:check": "biome format",
