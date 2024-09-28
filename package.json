@@ -4,13 +4,15 @@
 	"type": "module",
 	"scripts": {
 		"dev": "tsx --watch ./src/index.ts",
-		"start": "node --max-old-space-size=4096 dist/index.js",
+		"start": "NODE_ENV=production node --max-old-space-size=4096 dist/index.js",
 		"test": "tsx --test ./tests/test.ts",
 		"build": "tsup",
 		"lint": "biome lint",
 		"format:check": "biome format",
 		"format": "biome format --write",
-		"type-check": "tsc --noEmit"
+		"type-check": "tsc --noEmit",
+		"docker:build": "docker build -t vwnode .",
+    	"docker:run": "docker run -p 3000:3000 vwnode"
 	},
 	"devDependencies": {
 		"@types/node": "latest",
