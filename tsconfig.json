@@ -14,7 +14,12 @@
 		"noUncheckedIndexedAccess": true,
 		"noImplicitOverride": true,
 		/* Transpilation */
-		"noEmit": true
+		"noEmit": true,
+		/* Paths */
+		"baseUrl": ".",
+		"paths": {
+		  "@/*": ["./src/*"]
+		}
 	},
 	"include": ["src"],
 	"exclude": ["node_modules"]
