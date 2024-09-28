@@ -13,8 +13,11 @@
   <a href="https://github.com/vwh/vwnode/actions/workflows/lint.yml">
     <img src="https://github.com/vwh/vwnode/actions/workflows/lint.yml/badge.svg" alt="Lint Badge"/>
   </a>
-  <a href="https://github.com/vwh/vwnode/actions/workflows/test.yml">
-    <img src="https://github.com/vwh/vwnode/actions/workflows/test.yml/badge.svg" alt="Test Badge"/>
+  <a href="https://github.com/vwh/vwnode/actions/workflows/tests.yml">
+    <img src="https://github.com/vwh/vwnode/actions/workflows/tests.yml/badge.svg" alt="Test Badge"/>
+  </a>
+  <a href="https://github.com/vwh/vwnode/actions/workflows/tsc.yml">
+    <img src="https://github.com/vwh/vwnode/actions/workflows/tsc.yml/badge.svg" alt="TSC Badge"/>
   </a>
 </div>
 
