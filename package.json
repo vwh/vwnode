@@ -3,22 +3,19 @@
 	"module": "index.ts",
 	"type": "module",
 	"scripts": {
-		"local": "tsup src/index.ts --out-dir .temp && node .temp/index.js",
-		"dev": "NODE_OPTIONS='--no-warnings' nodemon",
-		"build": "tsup src/index.ts --out-dir dist --format esm,cjs --minify",
-		"start": "node dist/index.js",
-		"clean": "rm -rf dist .temp",
+		"dev": "tsx --watch ./src/index.ts",
+		"start": "node --max-old-space-size=4096 dist/index.js",
+		"build": "tsup",
 		"lint": "biome lint",
 		"format:check": "biome format",
 		"format": "biome format --write",
 		"type-check": "tsc --noEmit"
 	},
 	"devDependencies": {
+		"@types/node": "latest",
+		"typescript": "^5.6.2",
 		"@biomejs/biome": "^1.8.3",
-		"@types/node": "^22.5.4",
-		"nodemon": "^3.1.4",
-		"ts-node": "^10.9.2",
 		"tsup": "^8.2.4",
-		"typescript": "^5.5.4"
+		"tsx": "^4.19.1"
 	}
 }
